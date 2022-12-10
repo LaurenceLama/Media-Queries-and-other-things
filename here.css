@@ -1,0 +1,38 @@
+h2 {
+    transition: background-color 330ms;
+}
+h2:hover {
+    background-color: darksalmon;
+}
+
+.butt {
+    animation: float 1200ms infinite alternate-reverse;
+    transition: all 260ms;
+}
+
+.butt:hover {
+    background-color: darkkhaki;
+    color: brown;
+}
+
+button {
+    animation: float 1700ms 8 alternate-reverse;
+    transition: all 260ms;
+}
+button:hover {
+    background-color: darkkhaki;
+    color: brown;
+}
+
+h1 {
+    margin: 100px 0px 0px ;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px)
+    }
+    100% {
+        transform: translateY(80px)
+    }
+}

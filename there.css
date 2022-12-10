@@ -1,0 +1,8 @@
+.nav__link {
+    color: rgb(124, 72, 3);
+}
+
+.nav__link--active {
+    color: blueviolet;
+    font-weight: bold;
+}
